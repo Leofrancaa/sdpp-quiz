@@ -1,0 +1,127 @@
+[
+  {
+    "conteudo": "Qual a capital do Brasil?",
+    "opcoes": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
+    "respostaCorreta": "Brasília"
+  },
+  {
+    "conteudo": "Quem inventou a lâmpada elétrica?",
+    "opcoes": [
+      "Nikola Tesla",
+      "Thomas Edison",
+      "Alexander Graham Bell",
+      "Albert Einstein"
+    ],
+    "respostaCorreta": "Thomas Edison"
+  },
+  {
+    "conteudo": "Qual é o maior planeta do sistema solar?",
+    "opcoes": ["Terra", "Marte", "Júpiter", "Saturno"],
+    "respostaCorreta": "Júpiter"
+  },
+  {
+    "conteudo": "Quantos estados tem o Brasil?",
+    "opcoes": ["24", "26", "27", "25"],
+    "respostaCorreta": "26"
+  },
+  {
+    "conteudo": "Quem pintou a Mona Lisa?",
+    "opcoes": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Van Gogh",
+      "Pablo Picasso"
+    ],
+    "respostaCorreta": "Leonardo da Vinci"
+  },
+  {
+    "conteudo": "Em que continente está o Egito?",
+    "opcoes": ["África", "Ásia", "Europa", "América"],
+    "respostaCorreta": "África"
+  },
+  {
+    "conteudo": "Qual é o menor país do mundo?",
+    "opcoes": ["Mônaco", "Vaticano", "San Marino", "Liechtenstein"],
+    "respostaCorreta": "Vaticano"
+  },
+  {
+    "conteudo": "Quem escreveu 'Dom Quixote'?",
+    "opcoes": [
+      "William Shakespeare",
+      "Miguel de Cervantes",
+      "Dante Alighieri",
+      "Machado de Assis"
+    ],
+    "respostaCorreta": "Miguel de Cervantes"
+  },
+  {
+    "conteudo": "Qual o elemento químico representado por 'O'?",
+    "opcoes": ["Ouro", "Oxigênio", "Osmio", "Óxido"],
+    "respostaCorreta": "Oxigênio"
+  },
+  {
+    "conteudo": "Qual é o número de vértebras na coluna humana?",
+    "opcoes": ["24", "26", "30", "34"],
+    "respostaCorreta": "26"
+  },
+  {
+    "conteudo": "Qual planeta é conhecido como planeta vermelho?",
+    "opcoes": ["Vênus", "Júpiter", "Marte", "Saturno"],
+    "respostaCorreta": "Marte"
+  },
+  {
+    "conteudo": "Qual animal é o símbolo da WWF?",
+    "opcoes": ["Leão", "Panda", "Tigre", "Águia"],
+    "respostaCorreta": "Panda"
+  },
+  {
+    "conteudo": "Quem descobriu a gravidade?",
+    "opcoes": ["Einstein", "Newton", "Galileu", "Tesla"],
+    "respostaCorreta": "Newton"
+  },
+  {
+    "conteudo": "Qual é o idioma mais falado no mundo?",
+    "opcoes": ["Inglês", "Espanhol", "Chinês mandarim", "Hindi"],
+    "respostaCorreta": "Chinês mandarim"
+  },
+  {
+    "conteudo": "Em que ano foi a queda do Muro de Berlim?",
+    "opcoes": ["1987", "1989", "1991", "1993"],
+    "respostaCorreta": "1989"
+  },
+  {
+    "conteudo": "Qual a moeda do Japão?",
+    "opcoes": ["Yuan", "Won", "Iene", "Ringgit"],
+    "respostaCorreta": "Iene"
+  },
+  {
+    "conteudo": "Quem pintou o teto da Capela Sistina?",
+    "opcoes": ["Da Vinci", "Raphael", "Michelangelo", "Donatello"],
+    "respostaCorreta": "Michelangelo"
+  },
+  {
+    "conteudo": "O que significa CPU em computação?",
+    "opcoes": [
+      "Central Processing Unit",
+      "Central Programming Unit",
+      "Computer Personal Unit",
+      "Central Processor Update"
+    ],
+    "respostaCorreta": "Central Processing Unit"
+  },
+  {
+    "conteudo": "Qual é o maior oceano da Terra?",
+    "opcoes": ["Atlântico", "Índico", "Ártico", "Pacífico"],
+    "respostaCorreta": "Pacífico"
+  },
+  {
+    "conteudo": "Qual cientista desenvolveu a teoria da relatividade?",
+    "opcoes": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Niels Bohr",
+      "Galileu Galilei"
+    ],
+    "respostaCorreta": "Albert Einstein"
+  }
+]

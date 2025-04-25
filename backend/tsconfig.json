@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Compatível com Node.js e browsers modernos
+    "module": "commonjs", // Para rodar no Node.js
+    "rootDir": "./", // Onde estão os arquivos TypeScript
+    "outDir": "./dist", // Onde gerar os arquivos JS após compilar
+    "moduleResolution": "node", // Para entender imports do Node
+    "esModuleInterop": true, // Para importar pacotes npm normalmente
+    "strict": true, // Tipagem mais segura
+    "forceConsistentCasingInFileNames": true, // Evita bugs de maiúscula/minúscula em imports
+    "skipLibCheck": true, // Ignora verificação de .d.ts externos
+    "resolveJsonModule": true // Permite importar arquivos .json
+  },
+  "include": ["./**/*.ts"], // Inclui todos os arquivos .ts
+  "exclude": ["node_modules", "dist"] // Ignora essas pastas
+}

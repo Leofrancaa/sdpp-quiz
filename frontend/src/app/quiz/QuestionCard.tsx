@@ -19,7 +19,7 @@ export default function QuestionCard({
           <button
             key={index}
             onClick={() => onResposta(opcao)}
-            className="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md transition cursor-pointer"
+            className="bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md transition cursor-pointer px-6"
           >
             {opcao}
           </button>

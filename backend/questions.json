@@ -1,127 +1,793 @@
-[
-  {
-    "conteudo": "Qual a capital do Brasil?",
-    "opcoes": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
-    "respostaCorreta": "Brasília"
-  },
-  {
-    "conteudo": "Quem inventou a lâmpada elétrica?",
-    "opcoes": [
-      "Nikola Tesla",
-      "Thomas Edison",
-      "Alexander Graham Bell",
-      "Albert Einstein"
-    ],
-    "respostaCorreta": "Thomas Edison"
-  },
-  {
-    "conteudo": "Qual é o maior planeta do sistema solar?",
-    "opcoes": ["Terra", "Marte", "Júpiter", "Saturno"],
-    "respostaCorreta": "Júpiter"
-  },
-  {
-    "conteudo": "Quantos estados tem o Brasil?",
-    "opcoes": ["24", "26", "27", "25"],
-    "respostaCorreta": "26"
-  },
-  {
-    "conteudo": "Quem pintou a Mona Lisa?",
-    "opcoes": [
-      "Michelangelo",
-      "Leonardo da Vinci",
-      "Van Gogh",
-      "Pablo Picasso"
-    ],
-    "respostaCorreta": "Leonardo da Vinci"
-  },
-  {
-    "conteudo": "Em que continente está o Egito?",
-    "opcoes": ["África", "Ásia", "Europa", "América"],
-    "respostaCorreta": "África"
-  },
-  {
-    "conteudo": "Qual é o menor país do mundo?",
-    "opcoes": ["Mônaco", "Vaticano", "San Marino", "Liechtenstein"],
-    "respostaCorreta": "Vaticano"
-  },
-  {
-    "conteudo": "Quem escreveu 'Dom Quixote'?",
-    "opcoes": [
-      "William Shakespeare",
-      "Miguel de Cervantes",
-      "Dante Alighieri",
-      "Machado de Assis"
-    ],
-    "respostaCorreta": "Miguel de Cervantes"
-  },
-  {
-    "conteudo": "Qual o elemento químico representado por 'O'?",
-    "opcoes": ["Ouro", "Oxigênio", "Osmio", "Óxido"],
-    "respostaCorreta": "Oxigênio"
-  },
-  {
-    "conteudo": "Qual é o número de vértebras na coluna humana?",
-    "opcoes": ["24", "26", "30", "34"],
-    "respostaCorreta": "26"
-  },
-  {
-    "conteudo": "Qual planeta é conhecido como planeta vermelho?",
-    "opcoes": ["Vênus", "Júpiter", "Marte", "Saturno"],
-    "respostaCorreta": "Marte"
-  },
-  {
-    "conteudo": "Qual animal é o símbolo da WWF?",
-    "opcoes": ["Leão", "Panda", "Tigre", "Águia"],
-    "respostaCorreta": "Panda"
-  },
-  {
-    "conteudo": "Quem descobriu a gravidade?",
-    "opcoes": ["Einstein", "Newton", "Galileu", "Tesla"],
-    "respostaCorreta": "Newton"
-  },
-  {
-    "conteudo": "Qual é o idioma mais falado no mundo?",
-    "opcoes": ["Inglês", "Espanhol", "Chinês mandarim", "Hindi"],
-    "respostaCorreta": "Chinês mandarim"
-  },
-  {
-    "conteudo": "Em que ano foi a queda do Muro de Berlim?",
-    "opcoes": ["1987", "1989", "1991", "1993"],
-    "respostaCorreta": "1989"
-  },
-  {
-    "conteudo": "Qual a moeda do Japão?",
-    "opcoes": ["Yuan", "Won", "Iene", "Ringgit"],
-    "respostaCorreta": "Iene"
-  },
-  {
-    "conteudo": "Quem pintou o teto da Capela Sistina?",
-    "opcoes": ["Da Vinci", "Raphael", "Michelangelo", "Donatello"],
-    "respostaCorreta": "Michelangelo"
-  },
-  {
-    "conteudo": "O que significa CPU em computação?",
-    "opcoes": [
-      "Central Processing Unit",
-      "Central Programming Unit",
-      "Computer Personal Unit",
-      "Central Processor Update"
-    ],
-    "respostaCorreta": "Central Processing Unit"
-  },
-  {
-    "conteudo": "Qual é o maior oceano da Terra?",
-    "opcoes": ["Atlântico", "Índico", "Ártico", "Pacífico"],
-    "respostaCorreta": "Pacífico"
-  },
-  {
-    "conteudo": "Qual cientista desenvolveu a teoria da relatividade?",
-    "opcoes": [
-      "Isaac Newton",
-      "Albert Einstein",
-      "Niels Bohr",
-      "Galileu Galilei"
-    ],
-    "respostaCorreta": "Albert Einstein"
-  }
-]
+{
+  "Tecnologia": [
+    {
+      "conteudo": "Quem criou o Linux?",
+      "opcoes": [
+        "Linus Torvalds",
+        "Bill Gates",
+        "Steve Jobs",
+        "Mark Zuckerberg"
+      ],
+      "respostaCorreta": "Linus Torvalds"
+    },
+    {
+      "conteudo": "O que significa 'HTTP'?",
+      "opcoes": [
+        "HyperText Transfer Protocol",
+        "HighText Transfer Protocol",
+        "HyperTabular Transfer Protocol",
+        "None"
+      ],
+      "respostaCorreta": "HyperText Transfer Protocol"
+    },
+    {
+      "conteudo": "Qual empresa desenvolveu o Windows?",
+      "opcoes": ["Apple", "Microsoft", "IBM", "Google"],
+      "respostaCorreta": "Microsoft"
+    },
+    {
+      "conteudo": "O que é CPU?",
+      "opcoes": [
+        "Central Processing Unit",
+        "Central Performance Unit",
+        "Control Processing Unit",
+        "Central Processor Upgrade"
+      ],
+      "respostaCorreta": "Central Processing Unit"
+    },
+    {
+      "conteudo": "Qual linguagem é usada para criar páginas web?",
+      "opcoes": ["Python", "HTML", "Java", "C++"],
+      "respostaCorreta": "HTML"
+    },
+    {
+      "conteudo": "Quem inventou o primeiro computador?",
+      "opcoes": [
+        "Alan Turing",
+        "Charles Babbage",
+        "Tim Berners-Lee",
+        "Steve Jobs"
+      ],
+      "respostaCorreta": "Charles Babbage"
+    },
+    {
+      "conteudo": "O que é um SSD?",
+      "opcoes": [
+        "Tipo de monitor",
+        "Disco de armazenamento rápido",
+        "Memória RAM",
+        "Placa de vídeo"
+      ],
+      "respostaCorreta": "Disco de armazenamento rápido"
+    },
+    {
+      "conteudo": "Qual navegador foi o primeiro?",
+      "opcoes": [
+        "Internet Explorer",
+        "Netscape Navigator",
+        "Mozilla Firefox",
+        "Google Chrome"
+      ],
+      "respostaCorreta": "Netscape Navigator"
+    },
+    {
+      "conteudo": "O que significa 'AI'?",
+      "opcoes": [
+        "Artificial Intelligence",
+        "Automated Interface",
+        "Alternate Internet",
+        "Application Interchange"
+      ],
+      "respostaCorreta": "Artificial Intelligence"
+    },
+    {
+      "conteudo": "Qual linguagem é usada para apps Android?",
+      "opcoes": ["Swift", "Kotlin", "Objective-C", "C#"],
+      "respostaCorreta": "Kotlin"
+    },
+    {
+      "conteudo": "Quem criou o WWW?",
+      "opcoes": [
+        "Bill Gates",
+        "Tim Berners-Lee",
+        "Mark Zuckerberg",
+        "Elon Musk"
+      ],
+      "respostaCorreta": "Tim Berners-Lee"
+    },
+    {
+      "conteudo": "Qual é o sistema operacional da Apple?",
+      "opcoes": ["Windows", "iOS", "Linux", "Android"],
+      "respostaCorreta": "iOS"
+    },
+    {
+      "conteudo": "O que é Git?",
+      "opcoes": [
+        "Sistema de controle de versões",
+        "Editor de texto",
+        "Sistema operacional",
+        "Compilador"
+      ],
+      "respostaCorreta": "Sistema de controle de versões"
+    },
+    {
+      "conteudo": "O que é um IP?",
+      "opcoes": [
+        "Identificação pessoal",
+        "Identificador de pacote",
+        "Protocolo de internet",
+        "Rede privada"
+      ],
+      "respostaCorreta": "Protocolo de internet"
+    },
+    {
+      "conteudo": "Qual tecnologia substituiu o CD?",
+      "opcoes": ["MP3", "Blu-Ray", "Disquete", "Vinil"],
+      "respostaCorreta": "Blu-Ray"
+    },
+    {
+      "conteudo": "O que é IoT?",
+      "opcoes": [
+        "Internet das Coisas",
+        "Interface of Technology",
+        "Internal Open Technology",
+        "Input of Time"
+      ],
+      "respostaCorreta": "Internet das Coisas"
+    },
+    {
+      "conteudo": "Quem criou o iPhone?",
+      "opcoes": ["Samsung", "Google", "Apple", "Nokia"],
+      "respostaCorreta": "Apple"
+    },
+    {
+      "conteudo": "O que significa 'RAM'?",
+      "opcoes": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Rapid Access Module",
+        "Random Application Memory"
+      ],
+      "respostaCorreta": "Random Access Memory"
+    },
+    {
+      "conteudo": "O que é um URL?",
+      "opcoes": [
+        "Endereço de internet",
+        "Código de segurança",
+        "Extensão de arquivo",
+        "Comando de sistema"
+      ],
+      "respostaCorreta": "Endereço de internet"
+    },
+    {
+      "conteudo": "Em qual linguagem o Windows foi originalmente escrito?",
+      "opcoes": ["C", "Python", "Assembly", "Pascal"],
+      "respostaCorreta": "C"
+    }
+  ],
+
+  "História": [
+    {
+      "conteudo": "Em que ano o Brasil declarou independência?",
+      "opcoes": ["1822", "1888", "1808", "1789"],
+      "respostaCorreta": "1822"
+    },
+    {
+      "conteudo": "Quem foi o primeiro imperador do Brasil?",
+      "opcoes": ["Dom Pedro II", "Dom João VI", "Dom Pedro I", "Tiradentes"],
+      "respostaCorreta": "Dom Pedro I"
+    },
+    {
+      "conteudo": "Quem foi Napoleão Bonaparte?",
+      "opcoes": ["Filósofo", "Imperador", "Cientista", "Músico"],
+      "respostaCorreta": "Imperador"
+    },
+    {
+      "conteudo": "Qual era o nome da rainha da França guilhotinada?",
+      "opcoes": [
+        "Maria Antonieta",
+        "Catarina de Médici",
+        "Isabel I",
+        "Lucrécia Bórgia"
+      ],
+      "respostaCorreta": "Maria Antonieta"
+    },
+    {
+      "conteudo": "Quando aconteceu a Revolução Francesa?",
+      "opcoes": ["1789", "1799", "1804", "1776"],
+      "respostaCorreta": "1789"
+    },
+    {
+      "conteudo": "Qual país iniciou a Revolução Industrial?",
+      "opcoes": ["França", "Estados Unidos", "Inglaterra", "Alemanha"],
+      "respostaCorreta": "Inglaterra"
+    },
+    {
+      "conteudo": "Em que ano terminou a Segunda Guerra Mundial?",
+      "opcoes": ["1944", "1945", "1946", "1947"],
+      "respostaCorreta": "1945"
+    },
+    {
+      "conteudo": "Quem liderou o movimento pelos direitos civis nos EUA?",
+      "opcoes": [
+        "Malcolm X",
+        "Martin Luther King Jr.",
+        "Abraham Lincoln",
+        "Nelson Mandela"
+      ],
+      "respostaCorreta": "Martin Luther King Jr."
+    },
+    {
+      "conteudo": "Quem foi o primeiro presidente dos EUA?",
+      "opcoes": [
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "George Washington",
+        "Benjamin Franklin"
+      ],
+      "respostaCorreta": "George Washington"
+    },
+    {
+      "conteudo": "Qual era a civilização de Machu Picchu?",
+      "opcoes": ["Asteca", "Inca", "Maya", "Olmeca"],
+      "respostaCorreta": "Inca"
+    },
+    {
+      "conteudo": "Quem descobriu a América?",
+      "opcoes": [
+        "Vasco da Gama",
+        "Pedro Álvares Cabral",
+        "Cristóvão Colombo",
+        "Fernão de Magalhães"
+      ],
+      "respostaCorreta": "Cristóvão Colombo"
+    },
+    {
+      "conteudo": "Em que ano foi a assinatura da Constituição dos EUA?",
+      "opcoes": ["1776", "1787", "1791", "1801"],
+      "respostaCorreta": "1787"
+    },
+    {
+      "conteudo": "Qual civilização construiu as pirâmides?",
+      "opcoes": ["Egípcia", "Inca", "Maya", "Grega"],
+      "respostaCorreta": "Egípcia"
+    },
+    {
+      "conteudo": "O que foi o Tratado de Versalhes?",
+      "opcoes": [
+        "Acordo de paz",
+        "Declaração de guerra",
+        "Tratado comercial",
+        "Revolução"
+      ],
+      "respostaCorreta": "Acordo de paz"
+    },
+    {
+      "conteudo": "Qual país colonizou o Brasil?",
+      "opcoes": ["Espanha", "França", "Portugal", "Inglaterra"],
+      "respostaCorreta": "Portugal"
+    },
+    {
+      "conteudo": "Quem era conhecido como 'o Libertador' na América do Sul?",
+      "opcoes": ["Simón Bolívar", "Che Guevara", "José Martí", "Fidel Castro"],
+      "respostaCorreta": "Simón Bolívar"
+    },
+    {
+      "conteudo": "Quando começou a Idade Média?",
+      "opcoes": ["476 d.C.", "1453 d.C.", "200 a.C.", "0 d.C."],
+      "respostaCorreta": "476 d.C."
+    },
+    {
+      "conteudo": "Quando caiu o Muro de Berlim?",
+      "opcoes": ["1987", "1989", "1991", "1993"],
+      "respostaCorreta": "1989"
+    },
+    {
+      "conteudo": "Quem foi o último czar da Rússia?",
+      "opcoes": [
+        "Pedro, o Grande",
+        "Ivan, o Terrível",
+        "Nicolau II",
+        "Alexandre III"
+      ],
+      "respostaCorreta": "Nicolau II"
+    },
+    {
+      "conteudo": "Quem foi imperador romano assassinado por Brutus?",
+      "opcoes": ["Nero", "Augusto", "Calígula", "Júlio César"],
+      "respostaCorreta": "Júlio César"
+    }
+  ],
+
+  "Esportes": [
+    {
+      "conteudo": "Quantos jogadores tem um time de futebol?",
+      "opcoes": ["9", "10", "11", "12"],
+      "respostaCorreta": "11"
+    },
+    {
+      "conteudo": "Quantos pontos vale uma cesta de 3 no basquete?",
+      "opcoes": ["2", "3", "4", "5"],
+      "respostaCorreta": "3"
+    },
+    {
+      "conteudo": "Qual país sediou as Olimpíadas de 2016?",
+      "opcoes": ["China", "Brasil", "Japão", "Rússia"],
+      "respostaCorreta": "Brasil"
+    },
+    {
+      "conteudo": "Em que esporte se usa taco e bola em campo gramado?",
+      "opcoes": ["Polo", "Críquete", "Beisebol", "Rúgbi"],
+      "respostaCorreta": "Polo"
+    },
+    {
+      "conteudo": "Quem é conhecido como 'Rei do Futebol'?",
+      "opcoes": ["Pelé", "Maradona", "Messi", "Cristiano Ronaldo"],
+      "respostaCorreta": "Pelé"
+    },
+    {
+      "conteudo": "Qual é o maior evento de futebol do mundo?",
+      "opcoes": [
+        "Copa América",
+        "Eurocopa",
+        "Champions League",
+        "Copa do Mundo"
+      ],
+      "respostaCorreta": "Copa do Mundo"
+    },
+    {
+      "conteudo": "Quantos sets são necessários para vencer no tênis masculino (Grand Slam)?",
+      "opcoes": ["2", "3", "4", "5"],
+      "respostaCorreta": "3"
+    },
+    {
+      "conteudo": "Em qual esporte se utiliza uma rede e uma bola sem tocar o chão?",
+      "opcoes": ["Tênis", "Vôlei", "Basquete", "Handebol"],
+      "respostaCorreta": "Vôlei"
+    },
+    {
+      "conteudo": "Quantos anéis estão no símbolo olímpico?",
+      "opcoes": ["3", "4", "5", "6"],
+      "respostaCorreta": "5"
+    },
+    {
+      "conteudo": "Qual país ganhou a Copa do Mundo de 2018?",
+      "opcoes": ["Brasil", "Alemanha", "França", "Croácia"],
+      "respostaCorreta": "França"
+    },
+    {
+      "conteudo": "Quem é o maior campeão de Fórmula 1?",
+      "opcoes": [
+        "Ayrton Senna",
+        "Michael Schumacher",
+        "Lewis Hamilton",
+        "Sebastian Vettel"
+      ],
+      "respostaCorreta": "Lewis Hamilton"
+    },
+    {
+      "conteudo": "Qual esporte é conhecido como 'esporte bretão'?",
+      "opcoes": ["Futebol", "Tênis", "Rúgbi", "Golfe"],
+      "respostaCorreta": "Futebol"
+    },
+    {
+      "conteudo": "O que significa MMA?",
+      "opcoes": [
+        "Mixed Martial Arts",
+        "Major Martial Association",
+        "Martial Management Agency",
+        "Mixed Match Athletics"
+      ],
+      "respostaCorreta": "Mixed Martial Arts"
+    },
+    {
+      "conteudo": "Qual esporte utiliza uma raquete e uma peteca?",
+      "opcoes": ["Tênis de mesa", "Badminton", "Squash", "Tênis"],
+      "respostaCorreta": "Badminton"
+    },
+    {
+      "conteudo": "Quantos jogadores formam um time de vôlei?",
+      "opcoes": ["5", "6", "7", "8"],
+      "respostaCorreta": "6"
+    },
+    {
+      "conteudo": "Onde foram realizadas as primeiras Olimpíadas modernas?",
+      "opcoes": ["França", "Inglaterra", "Grécia", "Estados Unidos"],
+      "respostaCorreta": "Grécia"
+    },
+    {
+      "conteudo": "Qual é o esporte mais popular no mundo?",
+      "opcoes": ["Basquete", "Futebol", "Críquete", "Tênis"],
+      "respostaCorreta": "Futebol"
+    },
+    {
+      "conteudo": "Quem foi o velocista que quebrou o recorde dos 100m rasos?",
+      "opcoes": ["Usain Bolt", "Carl Lewis", "Tyson Gay", "Asafa Powell"],
+      "respostaCorreta": "Usain Bolt"
+    },
+    {
+      "conteudo": "Quantos minutos tem uma partida oficial de futebol?",
+      "opcoes": ["80", "90", "100", "110"],
+      "respostaCorreta": "90"
+    },
+    {
+      "conteudo": "Em qual esporte existem técnicas chamadas 'ippon' e 'waza-ari'?",
+      "opcoes": ["Karatê", "Jiu-jitsu", "Judô", "Taekwondo"],
+      "respostaCorreta": "Judô"
+    }
+  ],
+
+  "Ciência": [
+    {
+      "conteudo": "Qual é o planeta mais próximo do Sol?",
+      "opcoes": ["Terra", "Marte", "Vênus", "Mercúrio"],
+      "respostaCorreta": "Mercúrio"
+    },
+    {
+      "conteudo": "O que é H2O?",
+      "opcoes": ["Ácido", "Água", "Gás", "Sal"],
+      "respostaCorreta": "Água"
+    },
+    {
+      "conteudo": "Quem desenvolveu a teoria da relatividade?",
+      "opcoes": [
+        "Isaac Newton",
+        "Galileu Galilei",
+        "Albert Einstein",
+        "Nikola Tesla"
+      ],
+      "respostaCorreta": "Albert Einstein"
+    },
+    {
+      "conteudo": "Qual elemento químico é representado pelo símbolo 'O'?",
+      "opcoes": ["Ouro", "Oxigênio", "Osmio", "Óxido"],
+      "respostaCorreta": "Oxigênio"
+    },
+    {
+      "conteudo": "Qual órgão do corpo humano é responsável por bombear sangue?",
+      "opcoes": ["Pulmões", "Fígado", "Coração", "Rins"],
+      "respostaCorreta": "Coração"
+    },
+    {
+      "conteudo": "Quantos planetas existem no sistema solar?",
+      "opcoes": ["7", "8", "9", "10"],
+      "respostaCorreta": "8"
+    },
+    {
+      "conteudo": "O que é fotossíntese?",
+      "opcoes": [
+        "Processo de digestão",
+        "Processo de respiração",
+        "Processo de produção de alimento pelas plantas",
+        "Processo de decomposição"
+      ],
+      "respostaCorreta": "Processo de produção de alimento pelas plantas"
+    },
+    {
+      "conteudo": "Qual é a unidade de medida da força?",
+      "opcoes": ["Joule", "Newton", "Watt", "Pascal"],
+      "respostaCorreta": "Newton"
+    },
+    {
+      "conteudo": "Quem é conhecido como 'Pai da Física'?",
+      "opcoes": ["Einstein", "Galileu", "Newton", "Tesla"],
+      "respostaCorreta": "Galileu"
+    },
+    {
+      "conteudo": "Qual gás é mais abundante na atmosfera da Terra?",
+      "opcoes": ["Oxigênio", "Gás carbônico", "Nitrogênio", "Hidrogênio"],
+      "respostaCorreta": "Nitrogênio"
+    },
+    {
+      "conteudo": "O que é um átomo?",
+      "opcoes": [
+        "Partícula de luz",
+        "Unidade fundamental da matéria",
+        "Molécula",
+        "Tipo de energia"
+      ],
+      "respostaCorreta": "Unidade fundamental da matéria"
+    },
+    {
+      "conteudo": "O que é um eclipse?",
+      "opcoes": [
+        "Colisão entre astros",
+        "Sombra de um astro sobre outro",
+        "Explosão de estrela",
+        "Formação de planeta"
+      ],
+      "respostaCorreta": "Sombra de um astro sobre outro"
+    },
+    {
+      "conteudo": "Qual é o maior osso do corpo humano?",
+      "opcoes": ["Tíbia", "Fêmur", "Úmero", "Rádio"],
+      "respostaCorreta": "Fêmur"
+    },
+    {
+      "conteudo": "Quem inventou a lâmpada elétrica?",
+      "opcoes": ["Tesla", "Edison", "Bell", "Watt"],
+      "respostaCorreta": "Edison"
+    },
+    {
+      "conteudo": "Qual o estado da água a 0°C?",
+      "opcoes": ["Gasoso", "Sólido", "Líquido", "Plasma"],
+      "respostaCorreta": "Sólido"
+    },
+    {
+      "conteudo": "Como se chama o estudo dos seres vivos?",
+      "opcoes": ["Física", "Química", "Astronomia", "Biologia"],
+      "respostaCorreta": "Biologia"
+    },
+    {
+      "conteudo": "Qual camada da Terra é composta de ferro e níquel?",
+      "opcoes": ["Crosta", "Manto", "Núcleo", "Atmosfera"],
+      "respostaCorreta": "Núcleo"
+    },
+    {
+      "conteudo": "O que é um vulcão?",
+      "opcoes": [
+        "Montanha gelada",
+        "Montanha que solta lava",
+        "Buraco negro",
+        "Formação coralina"
+      ],
+      "respostaCorreta": "Montanha que solta lava"
+    },
+    {
+      "conteudo": "Qual planeta tem anéis visíveis?",
+      "opcoes": ["Júpiter", "Marte", "Saturno", "Vênus"],
+      "respostaCorreta": "Saturno"
+    },
+    {
+      "conteudo": "Qual é a velocidade da luz?",
+      "opcoes": [
+        "300.000 km/s",
+        "150.000 km/s",
+        "500.000 km/s",
+        "100.000 km/s"
+      ],
+      "respostaCorreta": "300.000 km/s"
+    }
+  ],
+
+  "Entretenimento": [
+    {
+      "conteudo": "Quem dirigiu o filme 'Titanic'?",
+      "opcoes": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Christopher Nolan",
+        "Quentin Tarantino"
+      ],
+      "respostaCorreta": "James Cameron"
+    },
+    {
+      "conteudo": "Qual é o nome do bruxo protagonista em 'Harry Potter'?",
+      "opcoes": [
+        "Harry Potter",
+        "Ron Weasley",
+        "Hermione Granger",
+        "Neville Longbottom"
+      ],
+      "respostaCorreta": "Harry Potter"
+    },
+    {
+      "conteudo": "Qual série popular se passa em Westeros?",
+      "opcoes": [
+        "Breaking Bad",
+        "Game of Thrones",
+        "The Witcher",
+        "Stranger Things"
+      ],
+      "respostaCorreta": "Game of Thrones"
+    },
+    {
+      "conteudo": "Quem canta a música 'Thriller'?",
+      "opcoes": ["Elvis Presley", "Prince", "Michael Jackson", "Madonna"],
+      "respostaCorreta": "Michael Jackson"
+    },
+    {
+      "conteudo": "Qual filme popular tem personagens chamados Woody e Buzz?",
+      "opcoes": ["Toy Story", "Shrek", "Procurando Nemo", "Frozen"],
+      "respostaCorreta": "Toy Story"
+    },
+    {
+      "conteudo": "Quem interpretou 'Homem de Ferro' no cinema?",
+      "opcoes": [
+        "Chris Evans",
+        "Chris Hemsworth",
+        "Robert Downey Jr.",
+        "Mark Ruffalo"
+      ],
+      "respostaCorreta": "Robert Downey Jr."
+    },
+    {
+      "conteudo": "Qual princesa da Disney perde o sapato de cristal?",
+      "opcoes": ["Branca de Neve", "Ariel", "Cinderela", "Aurora"],
+      "respostaCorreta": "Cinderela"
+    },
+    {
+      "conteudo": "Em que filme Leonardo DiCaprio grita 'I'm the king of the world'?",
+      "opcoes": ["Titanic", "O Regresso", "A Origem", "Lobo de Wall Street"],
+      "respostaCorreta": "Titanic"
+    },
+    {
+      "conteudo": "Qual super-herói é conhecido como 'O Cavaleiro das Trevas'?",
+      "opcoes": ["Superman", "Batman", "Homem-Aranha", "Homem de Ferro"],
+      "respostaCorreta": "Batman"
+    },
+    {
+      "conteudo": "Quem canta 'Shape of You'?",
+      "opcoes": ["Shawn Mendes", "Ed Sheeran", "Justin Bieber", "Bruno Mars"],
+      "respostaCorreta": "Ed Sheeran"
+    },
+    {
+      "conteudo": "Qual saga de filmes apresenta personagens como Luke Skywalker e Darth Vader?",
+      "opcoes": ["Star Wars", "Star Trek", "Matrix", "Senhor dos Anéis"],
+      "respostaCorreta": "Star Wars"
+    },
+    {
+      "conteudo": "Qual série famosa é ambientada em Hawkins?",
+      "opcoes": ["The Witcher", "Breaking Bad", "Stranger Things", "The Boys"],
+      "respostaCorreta": "Stranger Things"
+    },
+    {
+      "conteudo": "Em que filme Jack Sparrow aparece?",
+      "opcoes": ["Piratas do Caribe", "Indiana Jones", "Gladiador", "Avatar"],
+      "respostaCorreta": "Piratas do Caribe"
+    },
+    {
+      "conteudo": "Quem é o criador da Marvel Comics?",
+      "opcoes": ["Stan Lee", "Bob Kane", "Jack Kirby", "Alan Moore"],
+      "respostaCorreta": "Stan Lee"
+    },
+    {
+      "conteudo": "Qual filme de animação tem personagens chamados Elsa e Anna?",
+      "opcoes": ["Valente", "Frozen", "Enrolados", "Moana"],
+      "respostaCorreta": "Frozen"
+    },
+    {
+      "conteudo": "Quem ganhou o Oscar de Melhor Filme em 2020?",
+      "opcoes": ["1917", "Parasita", "Coringa", "Era Uma Vez em Hollywood"],
+      "respostaCorreta": "Parasita"
+    },
+    {
+      "conteudo": "Qual é o nome do vilão principal em 'Vingadores: Guerra Infinita'?",
+      "opcoes": ["Thanos", "Loki", "Ultron", "Hela"],
+      "respostaCorreta": "Thanos"
+    },
+    {
+      "conteudo": "Qual artista é conhecido como 'Rainha do Pop'?",
+      "opcoes": ["Britney Spears", "Madonna", "Beyoncé", "Lady Gaga"],
+      "respostaCorreta": "Madonna"
+    },
+    {
+      "conteudo": "Qual desenho animado tem personagens chamados Homer, Marge, Bart, Lisa e Maggie?",
+      "opcoes": [
+        "Os Flintstones",
+        "Os Simpsons",
+        "Família Adams",
+        "South Park"
+      ],
+      "respostaCorreta": "Os Simpsons"
+    },
+    {
+      "conteudo": "Qual banda lançou o álbum 'Abbey Road'?",
+      "opcoes": ["The Rolling Stones", "The Beatles", "Queen", "Pink Floyd"],
+      "respostaCorreta": "The Beatles"
+    }
+  ],
+  "Geografia": [
+    {
+      "conteudo": "Qual é o maior país do mundo em território?",
+      "opcoes": ["China", "Canadá", "Estados Unidos", "Rússia"],
+      "respostaCorreta": "Rússia"
+    },
+    {
+      "conteudo": "Qual é o maior oceano do mundo?",
+      "opcoes": ["Atlântico", "Índico", "Ártico", "Pacífico"],
+      "respostaCorreta": "Pacífico"
+    },
+    {
+      "conteudo": "Qual país tem a maior população mundial?",
+      "opcoes": ["Índia", "Estados Unidos", "China", "Indonésia"],
+      "respostaCorreta": "China"
+    },
+    {
+      "conteudo": "Qual é o deserto mais seco do mundo?",
+      "opcoes": ["Saara", "Atacama", "Kalahari", "Gobi"],
+      "respostaCorreta": "Atacama"
+    },
+    {
+      "conteudo": "Qual é a capital da Austrália?",
+      "opcoes": ["Sydney", "Melbourne", "Perth", "Canberra"],
+      "respostaCorreta": "Canberra"
+    },
+    {
+      "conteudo": "Quantos continentes existem?",
+      "opcoes": ["5", "6", "7", "8"],
+      "respostaCorreta": "7"
+    },
+    {
+      "conteudo": "O Rio Amazonas deságua em qual oceano?",
+      "opcoes": ["Atlântico", "Índico", "Pacífico", "Ártico"],
+      "respostaCorreta": "Atlântico"
+    },
+    {
+      "conteudo": "Qual é o menor país do mundo?",
+      "opcoes": ["Mônaco", "Vaticano", "Malta", "San Marino"],
+      "respostaCorreta": "Vaticano"
+    },
+    {
+      "conteudo": "Em que continente fica o Egito?",
+      "opcoes": ["Ásia", "África", "Europa", "América"],
+      "respostaCorreta": "África"
+    },
+    {
+      "conteudo": "Qual é o maior rio do mundo em volume de água?",
+      "opcoes": ["Nilo", "Yangtze", "Mississippi", "Amazonas"],
+      "respostaCorreta": "Amazonas"
+    },
+    {
+      "conteudo": "Qual é a capital do Canadá?",
+      "opcoes": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+      "respostaCorreta": "Ottawa"
+    },
+    {
+      "conteudo": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
+      "opcoes": ["China", "Coreia do Sul", "Japão", "Tailândia"],
+      "respostaCorreta": "Japão"
+    },
+    {
+      "conteudo": "Em que oceano ficam as Ilhas Maldivas?",
+      "opcoes": ["Atlântico", "Pacífico", "Índico", "Ártico"],
+      "respostaCorreta": "Índico"
+    },
+    {
+      "conteudo": "Qual é a montanha mais alta do mundo?",
+      "opcoes": [
+        "Monte Everest",
+        "Monte Kilimanjaro",
+        "Monte McKinley",
+        "Monte Elbrus"
+      ],
+      "respostaCorreta": "Monte Everest"
+    },
+    {
+      "conteudo": "Qual é a capital da Argentina?",
+      "opcoes": ["Rosário", "Mendoza", "Buenos Aires", "Córdoba"],
+      "respostaCorreta": "Buenos Aires"
+    },
+    {
+      "conteudo": "Que continente tem mais países?",
+      "opcoes": ["Europa", "África", "América", "Ásia"],
+      "respostaCorreta": "África"
+    },
+    {
+      "conteudo": "O que separa a Europa da Ásia?",
+      "opcoes": ["Montanhas Rochosas", "Himalaia", "Montes Urais", "Alpes"],
+      "respostaCorreta": "Montes Urais"
+    },
+    {
+      "conteudo": "Qual país é conhecido por ter o formato de uma bota?",
+      "opcoes": ["França", "Portugal", "Itália", "Grécia"],
+      "respostaCorreta": "Itália"
+    },
+    {
+      "conteudo": "Qual é a capital da África do Sul?",
+      "opcoes": ["Cidade do Cabo", "Pretória", "Joanesburgo", "Durban"],
+      "respostaCorreta": "Pretória"
+    },
+    {
+      "conteudo": "Qual é a linha imaginária que divide a Terra em Hemisfério Norte e Sul?",
+      "opcoes": [
+        "Meridiano de Greenwich",
+        "Círculo Polar Ártico",
+        "Equador",
+        "Trópico de Câncer"
+      ],
+      "respostaCorreta": "Equador"
+    }
+  ]
+}

@@ -9,7 +9,11 @@ interface Question {
     respostaCorreta: string;
 }
 
-const questions: Question[] = JSON.parse(readFileSync('questions.json', 'utf-8'));
+interface QuestionsByTheme {
+    [theme: string]: Question[];
+}
+
+const questionsByTheme: QuestionsByTheme = JSON.parse(readFileSync('questions.json', 'utf-8'));
 
 const app = express();
 const httpServer = createServer(app);
@@ -22,7 +26,7 @@ const io = new Server(httpServer, {
 interface Player {
     id: string;
     score: number;
-    perguntasRestantes: Question[]; // ← perguntas já sorteadas para esse jogador
+    perguntasRestantes: Question[];
 }
 
 const players: { [id: string]: Player } = {};
@@ -34,38 +38,45 @@ function embaralhar<T>(array: T[]): T[] {
 io.on('connection', (socket) => {
     console.log(`Novo jogador conectado: ${socket.id}`);
 
-    // Cria 10 perguntas únicas já sorteadas
-    const perguntasSorteadas = embaralhar([...questions]).slice(0, 10);
+    socket.on('escolherTema', (tema: string) => {
+        console.log(`Tema escolhido por ${socket.id}: ${tema}`);
+        let perguntasSelecionadas: Question[] = [];
 
-    players[socket.id] = {
-        id: socket.id,
-        score: 0,
-        perguntasRestantes: perguntasSorteadas,
-    };
+        if (tema === 'Geral') {
+            const todasPerguntas = Object.values(questionsByTheme).flat();
+            perguntasSelecionadas = embaralhar(todasPerguntas).slice(0, 10);
+        } else if (questionsByTheme[tema]) {
+            perguntasSelecionadas = embaralhar([...questionsByTheme[tema]]).slice(0, 10);
+        } else {
+            socket.emit('erro', 'Tema inválido');
+            return;
+        }
 
-    // Envia a primeira pergunta
-    enviarProximaPergunta(socket);
+        players[socket.id] = {
+            id: socket.id,
+            score: 0,
+            perguntasRestantes: perguntasSelecionadas,
+        };
+
+        enviarProximaPergunta(socket);
+    });
 
     socket.on('resposta', (data) => {
         const player = players[socket.id];
         if (!player) return;
 
-        const perguntaAtual = player.perguntasRestantes[0]; // A primeira da lista
-        if (!perguntaAtual) return; // Se não tiver pergunta, ignora
-
-        console.log(`Resposta recebida de ${socket.id}: ${data.resposta}`);
+        const perguntaAtual = player.perguntasRestantes[0];
+        if (!perguntaAtual) return;
 
         if (data.resposta === perguntaAtual.respostaCorreta) {
             player.score += 1;
         }
 
-        // Remove a pergunta atual
         player.perguntasRestantes.shift();
 
         if (player.perguntasRestantes.length > 0) {
             enviarProximaPergunta(socket);
         } else {
-            // Se acabou as perguntas, manda pontuação final
             socket.emit('fim', {
                 tipo: 'fim',
                 pontuacao: player.score,
@@ -90,6 +101,7 @@ function enviarProximaPergunta(socket: any) {
         tipo: 'pergunta',
         conteudo: pergunta.conteudo,
         opcoes: pergunta.opcoes,
+        respostaCorreta: pergunta.respostaCorreta // Manda a resposta correta junto
     });
 }
 

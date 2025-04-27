@@ -1,6 +1,66 @@
 {
   "Tecnologia": [
     {
+      "conteudo": "Qual foi o primeiro motor de busca da internet?",
+      "opcoes": ["Google", "Yahoo", "Archie", "Bing"],
+      "respostaCorreta": "Archie"
+    },
+    {
+      "conteudo": "Qual linguagem é usada principalmente para inteligência artificial?",
+      "opcoes": ["Java", "Python", "C++", "Ruby"],
+      "respostaCorreta": "Python"
+    },
+    {
+      "conteudo": "O que é VR?",
+      "opcoes": [
+        "Virtual Reality",
+        "Virtual Router",
+        "Very Rapid",
+        "Video Recorder"
+      ],
+      "respostaCorreta": "Virtual Reality"
+    },
+    {
+      "conteudo": "Quem criou o sistema Android?",
+      "opcoes": ["Google", "Apple", "Andy Rubin", "Microsoft"],
+      "respostaCorreta": "Andy Rubin"
+    },
+    {
+      "conteudo": "Qual empresa é dona da marca PlayStation?",
+      "opcoes": ["Nintendo", "Microsoft", "Sony", "Sega"],
+      "respostaCorreta": "Sony"
+    },
+    {
+      "conteudo": "Qual destes NÃO é um sistema operacional?",
+      "opcoes": ["Linux", "Windows", "Photoshop", "MacOS"],
+      "respostaCorreta": "Photoshop"
+    },
+    {
+      "conteudo": "O que é HTML usado para criar?",
+      "opcoes": ["Programas de desktop", "Jogos", "Páginas Web", "Redes"],
+      "respostaCorreta": "Páginas Web"
+    },
+    {
+      "conteudo": "Qual navegador é símbolo de raposa?",
+      "opcoes": ["Chrome", "Firefox", "Safari", "Opera"],
+      "respostaCorreta": "Firefox"
+    },
+    {
+      "conteudo": "Quem é o CEO da Tesla?",
+      "opcoes": ["Jeff Bezos", "Mark Zuckerberg", "Elon Musk", "Bill Gates"],
+      "respostaCorreta": "Elon Musk"
+    },
+    {
+      "conteudo": "O que significa 'IoT'?",
+      "opcoes": [
+        "Input of Technology",
+        "Internet of Things",
+        "Internet of Technology",
+        "Interface of Things"
+      ],
+      "respostaCorreta": "Internet of Things"
+    },
+    {
       "conteudo": "Quem criou o Linux?",
       "opcoes": [
         "Linus Torvalds",
@@ -169,6 +229,71 @@
 
   "História": [
     {
+      "conteudo": "Quem foi o primeiro imperador romano?",
+      "opcoes": ["Augusto", "Júlio César", "Nero", "Calígula"],
+      "respostaCorreta": "Augusto"
+    },
+    {
+      "conteudo": "Quando começou a Primeira Guerra Mundial?",
+      "opcoes": ["1912", "1914", "1916", "1918"],
+      "respostaCorreta": "1914"
+    },
+    {
+      "conteudo": "Quem liderou a Revolução Russa?",
+      "opcoes": ["Lenin", "Stálin", "Trotsky", "Gorbachev"],
+      "respostaCorreta": "Lenin"
+    },
+    {
+      "conteudo": "Quem assinou a Lei Áurea no Brasil?",
+      "opcoes": [
+        "Dom Pedro I",
+        "Dom Pedro II",
+        "Princesa Isabel",
+        "Getúlio Vargas"
+      ],
+      "respostaCorreta": "Princesa Isabel"
+    },
+    {
+      "conteudo": "Em que ano a Segunda Guerra Mundial começou?",
+      "opcoes": ["1937", "1938", "1939", "1940"],
+      "respostaCorreta": "1939"
+    },
+    {
+      "conteudo": "Qual foi a primeira civilização da história?",
+      "opcoes": ["Egípcia", "Suméria", "Grega", "Romana"],
+      "respostaCorreta": "Suméria"
+    },
+    {
+      "conteudo": "Quem foi o explorador que deu a volta ao mundo?",
+      "opcoes": [
+        "Cristóvão Colombo",
+        "Vasco da Gama",
+        "Fernão de Magalhães",
+        "Marco Polo"
+      ],
+      "respostaCorreta": "Fernão de Magalhães"
+    },
+    {
+      "conteudo": "Em que país surgiu o Renascimento?",
+      "opcoes": ["França", "Inglaterra", "Itália", "Alemanha"],
+      "respostaCorreta": "Itália"
+    },
+    {
+      "conteudo": "Quem foi o famoso líder da independência da Índia?",
+      "opcoes": [
+        "Jawaharlal Nehru",
+        "Mahatma Gandhi",
+        "Subhas Chandra Bose",
+        "Indira Gandhi"
+      ],
+      "respostaCorreta": "Mahatma Gandhi"
+    },
+    {
+      "conteudo": "Qual era o nome da cidade lendária destruída pela guerra narrada na Ilíada?",
+      "opcoes": ["Atenas", "Roma", "Tebas", "Troia"],
+      "respostaCorreta": "Troia"
+    },
+    {
       "conteudo": "Em que ano o Brasil declarou independência?",
       "opcoes": ["1822", "1888", "1808", "1789"],
       "respostaCorreta": "1822"
@@ -302,6 +427,61 @@
 
   "Esportes": [
     {
+      "conteudo": "Quantos jogadores tem uma equipe de beisebol?",
+      "opcoes": ["7", "8", "9", "10"],
+      "respostaCorreta": "9"
+    },
+    {
+      "conteudo": "Em que país nasceu o judô?",
+      "opcoes": ["China", "Japão", "Coreia", "Tailândia"],
+      "respostaCorreta": "Japão"
+    },
+    {
+      "conteudo": "Quantas medalhas de ouro Michael Phelps ganhou nas Olimpíadas?",
+      "opcoes": ["18", "22", "23", "24"],
+      "respostaCorreta": "23"
+    },
+    {
+      "conteudo": "Em que ano o Brasil venceu a Copa do Mundo pela primeira vez?",
+      "opcoes": ["1954", "1958", "1962", "1970"],
+      "respostaCorreta": "1958"
+    },
+    {
+      "conteudo": "Qual esporte usa o termo 'hole-in-one'?",
+      "opcoes": ["Tênis", "Golfe", "Basquete", "Críquete"],
+      "respostaCorreta": "Golfe"
+    },
+    {
+      "conteudo": "Qual esporte é praticado no Super Bowl?",
+      "opcoes": ["Basquete", "Hóquei", "Futebol americano", "Beisebol"],
+      "respostaCorreta": "Futebol americano"
+    },
+    {
+      "conteudo": "Quem é considerado o maior jogador de basquete da história?",
+      "opcoes": [
+        "Kobe Bryant",
+        "Michael Jordan",
+        "LeBron James",
+        "Shaquille O'Neal"
+      ],
+      "respostaCorreta": "Michael Jordan"
+    },
+    {
+      "conteudo": "Quantos sets são necessários para vencer no vôlei feminino?",
+      "opcoes": ["2", "3", "4", "5"],
+      "respostaCorreta": "3"
+    },
+    {
+      "conteudo": "Em qual esporte existe a prova dos 100 metros rasos?",
+      "opcoes": ["Natação", "Atletismo", "Ciclismo", "Ginástica"],
+      "respostaCorreta": "Atletismo"
+    },
+    {
+      "conteudo": "Qual é o maior estádio de futebol do Brasil?",
+      "opcoes": ["Morumbi", "Beira-Rio", "Maracanã", "Mineirão"],
+      "respostaCorreta": "Maracanã"
+    },
+    {
       "conteudo": "Quantos jogadores tem um time de futebol?",
       "opcoes": ["9", "10", "11", "12"],
       "respostaCorreta": "11"
@@ -419,6 +599,66 @@
   ],
 
   "Ciência": [
+    {
+      "conteudo": "Qual é o símbolo químico do Ouro?",
+      "opcoes": ["O", "Au", "Ag", "Fe"],
+      "respostaCorreta": "Au"
+    },
+    {
+      "conteudo": "Quantos dentes tem um adulto normalmente?",
+      "opcoes": ["28", "30", "32", "34"],
+      "respostaCorreta": "32"
+    },
+    {
+      "conteudo": "Qual é o estado físico do Sol?",
+      "opcoes": ["Sólido", "Líquido", "Gasoso", "Plasma"],
+      "respostaCorreta": "Plasma"
+    },
+    {
+      "conteudo": "O que Isaac Newton descobriu?",
+      "opcoes": ["Relatividade", "Gravidade", "Evolução", "Big Bang"],
+      "respostaCorreta": "Gravidade"
+    },
+    {
+      "conteudo": "Quantos ossos tem o corpo humano adulto?",
+      "opcoes": ["198", "206", "208", "210"],
+      "respostaCorreta": "206"
+    },
+    {
+      "conteudo": "Quem criou a teoria da evolução das espécies?",
+      "opcoes": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Charles Darwin",
+        "Gregor Mendel"
+      ],
+      "respostaCorreta": "Charles Darwin"
+    },
+    {
+      "conteudo": "Qual planeta é conhecido como 'Planeta Vermelho'?",
+      "opcoes": ["Marte", "Saturno", "Júpiter", "Mercúrio"],
+      "respostaCorreta": "Marte"
+    },
+    {
+      "conteudo": "Qual é o menor osso do corpo humano?",
+      "opcoes": ["Fêmur", "Estribo", "Tíbia", "Ulna"],
+      "respostaCorreta": "Estribo"
+    },
+    {
+      "conteudo": "Qual é a principal fonte de energia renovável?",
+      "opcoes": ["Gás natural", "Petróleo", "Solar", "Carvão"],
+      "respostaCorreta": "Solar"
+    },
+    {
+      "conteudo": "O que é clorofila?",
+      "opcoes": [
+        "Enzima humana",
+        "Pigmento das plantas",
+        "Tipo de célula",
+        "Composto químico artificial"
+      ],
+      "respostaCorreta": "Pigmento das plantas"
+    },
     {
       "conteudo": "Qual é o planeta mais próximo do Sol?",
       "opcoes": ["Terra", "Marte", "Vênus", "Mercúrio"],
@@ -553,6 +793,77 @@
 
   "Entretenimento": [
     {
+      "conteudo": "Qual filme ganhou o Oscar de Melhor Filme em 1998?",
+      "opcoes": [
+        "Titanic",
+        "Gladiador",
+        "Shakespeare Apaixonado",
+        "Forrest Gump"
+      ],
+      "respostaCorreta": "Shakespeare Apaixonado"
+    },
+    {
+      "conteudo": "Quem interpretou o personagem 'Coringa' em 'O Cavaleiro das Trevas'?",
+      "opcoes": [
+        "Joaquin Phoenix",
+        "Heath Ledger",
+        "Jack Nicholson",
+        "Jared Leto"
+      ],
+      "respostaCorreta": "Heath Ledger"
+    },
+    {
+      "conteudo": "Qual é a série com zumbis que se tornou fenômeno mundial?",
+      "opcoes": ["The 100", "The Walking Dead", "Lost", "Breaking Bad"],
+      "respostaCorreta": "The Walking Dead"
+    },
+    {
+      "conteudo": "Qual filme popular tem a música 'Let it Go'?",
+      "opcoes": ["Moana", "Frozen", "Valente", "Toy Story"],
+      "respostaCorreta": "Frozen"
+    },
+    {
+      "conteudo": "Quem interpreta Wolverine nos filmes dos X-Men?",
+      "opcoes": [
+        "Hugh Jackman",
+        "Chris Hemsworth",
+        "Ryan Reynolds",
+        "Chris Evans"
+      ],
+      "respostaCorreta": "Hugh Jackman"
+    },
+    {
+      "conteudo": "Qual filme é famoso pela frase 'May the Force be with you'?",
+      "opcoes": ["Star Wars", "Matrix", "O Senhor dos Anéis", "Avatar"],
+      "respostaCorreta": "Star Wars"
+    },
+    {
+      "conteudo": "Quem é o protagonista de 'De Volta para o Futuro'?",
+      "opcoes": ["Marty McFly", "Rick Deckard", "Han Solo", "Indiana Jones"],
+      "respostaCorreta": "Marty McFly"
+    },
+    {
+      "conteudo": "Qual cantora lançou o álbum '1989'?",
+      "opcoes": ["Katy Perry", "Lady Gaga", "Adele", "Taylor Swift"],
+      "respostaCorreta": "Taylor Swift"
+    },
+    {
+      "conteudo": "Quem criou os personagens da DC Comics como Batman e Superman?",
+      "opcoes": [
+        "Stan Lee",
+        "Bob Kane e Bill Finger",
+        "Jack Kirby",
+        "Alan Moore"
+      ],
+      "respostaCorreta": "Bob Kane e Bill Finger"
+    },
+    {
+      "conteudo": "Qual é o nome da escola de magia de Harry Potter?",
+      "opcoes": ["Durmstrang", "Hogwarts", "Beauxbatons", "Ilvermorny"],
+      "respostaCorreta": "Hogwarts"
+    },
+
+    {
       "conteudo": "Quem dirigiu o filme 'Titanic'?",
       "opcoes": [
         "James Cameron",
@@ -679,6 +990,67 @@
     }
   ],
   "Geografia": [
+    {
+      "conteudo": "Qual é a capital da Espanha?",
+      "opcoes": ["Barcelona", "Sevilha", "Madrid", "Valência"],
+      "respostaCorreta": "Madrid"
+    },
+    {
+      "conteudo": "Qual o maior continente do mundo?",
+      "opcoes": ["América", "Ásia", "África", "Europa"],
+      "respostaCorreta": "Ásia"
+    },
+    {
+      "conteudo": "Qual país é atravessado pela Linha do Equador e o Meridiano de Greenwich?",
+      "opcoes": ["Brasil", "Gabão", "Uganda", "São Tomé e Príncipe"],
+      "respostaCorreta": "Gabão"
+    },
+    {
+      "conteudo": "Qual é o rio mais longo do mundo?",
+      "opcoes": ["Amazonas", "Nilo", "Yangtze", "Mississippi"],
+      "respostaCorreta": "Nilo"
+    },
+    {
+      "conteudo": "Em qual continente está localizado o deserto do Saara?",
+      "opcoes": ["Ásia", "América", "África", "Europa"],
+      "respostaCorreta": "África"
+    },
+    {
+      "conteudo": "Qual é o país mais populoso da África?",
+      "opcoes": ["Egito", "Nigéria", "África do Sul", "Etiópia"],
+      "respostaCorreta": "Nigéria"
+    },
+    {
+      "conteudo": "Qual é o mar que banha a costa leste da Itália?",
+      "opcoes": [
+        "Mar Mediterrâneo",
+        "Mar Adriático",
+        "Mar Negro",
+        "Mar Cáspio"
+      ],
+      "respostaCorreta": "Mar Adriático"
+    },
+    {
+      "conteudo": "Qual montanha separa a França da Espanha?",
+      "opcoes": ["Alpes", "Pirineus", "Cárpatos", "Andes"],
+      "respostaCorreta": "Pirineus"
+    },
+    {
+      "conteudo": "Qual é o ponto mais profundo dos oceanos?",
+      "opcoes": [
+        "Fossa das Marianas",
+        "Trincheira de Tonga",
+        "Fossa do Japão",
+        "Fossa de Porto Rico"
+      ],
+      "respostaCorreta": "Fossa das Marianas"
+    },
+    {
+      "conteudo": "Quantos oceanos existem?",
+      "opcoes": ["3", "4", "5", "6"],
+      "respostaCorreta": "5"
+    },
+
     {
       "conteudo": "Qual é o maior país do mundo em território?",
       "opcoes": ["China", "Canadá", "Estados Unidos", "Rússia"],
